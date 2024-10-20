@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width:  100%;
+}
+/***************************NAVBAR************************/
+#main-navbar
+{
+     width: 100%;
+    display: flex;
+    /* position: fixed; */
+    /* border:2px solid black; */
+    background-color: rgb(251, 246, 246);
+    padding: 25px 25px;
+}
+img
+{
+    height: 30px;
+}
+#nav-elements
+{
+    display: flex;
+    align-items: right;
+    /* border: 1px solid black ; */
+    
+    margin-left: 50%;
+}
+p
+{
+    padding-left: 38px;
+}
+.text
+{
+   
+    font-weight: 500;
+    margin: 10px;
+    display: flex;
+    color: black;
+    font-size: medium;
+    font-family: "Noto Sans", sans-serif;
+}
+#info1
+{
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    
+}
+.title {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+    color: #2d2d2d;
+    text-align: center;
+    padding: 5px;
+}
+
+.underline {
+    width: 90px;
+    height: 3px; 
+    background-color: #ffa500; 
+    margin: 5px auto; 
+   
+}
+
+#info1 p
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(188, 184, 184);
+    padding-top: 25px;
+    
+}
+#nav-2 
+{
+    display: flex;
+    padding-left: 28%;
+    padding-top: 5%;
+    
+}
+.text2 
+{
+   
+   
+    margin: 8px;
+    display: flex;
+    color: black;
+    font-size: small;
+    font-family: "Noto Sans", sans-serif;
+    cursor: pointer;
+}
+
+
+
+/* ************************************* */
+#image1 img
+{
+    width: 600px;
+    height: 570px;
+    position: relative;
+    top: 40px;
+    left: 210px;
+}
+#image2 img
+{
+    width: 600px;
+    height: 250px;
+    position: relative;
+    top: 60px;
+    left: 210px;
+}
+
+#div-1
+{
+    height:250px;
+    width: 250px;
+  
+    background-image: url(1.jpg);
+    background-position: center;
+    position: relative;
+    bottom: 100%;
+    left: 50%;
+}
+
+ #div-2
+{
+    height:250px;
+    width: 250px;
+  
+     background-image: url(5.jpg); 
+    background-position: center;
+    position: relative;
+    bottom: 131%;
+    left: 67%;
+} 
+
+#div-3
+{
+    height:250px;
+    width: 250px;
+  
+    background-image: url(6.jpg);
+     background-position: center;
+    position: relative;
+    bottom: 123%;
+    left: 67%;
+    
+} 
+  
+ #div-4
+{
+    height:250px;
+    width: 250px;
+  
+    background-image: url(4.jpg);
+    position: relative;
+    bottom: 155%;
+    left: 50%;
+}
+
+#div-5
+{
+    height:250px;
+    width: 250px;
+  
+    background-image: url(3.jpg);
+    position: relative;
+    bottom: 151%;
+    left: 50%;
+
+}
+
+#div-6
+{
+    height:250px;
+    width: 250px;
+  
+    background-image: url(7.jpg);
+    position: relative;
+    bottom: 183%;
+    left: 67%;
+    
+}
+
+#experience
+{
+    height:400px;
+    width: 100%;
+   
+    position: relative;
+    bottom: 140%;
+    background-color: rgb(251, 246, 246);
+  
+}
+h1
+{
+    font-size: 49px;
+    font-family: "Noto Sans", sans-serif;
+    color: #2d2d2d;
+    margin-top: 20px;
+}
+
+#experience h1 
+{
+   text-align: center;
+   margin-top: 50px;
+   justify-content: center;
+  
+}
+
+.yellow-line
+{
+    height: 5px;
+    width: 110px;
+    margin-top: 40px;
+    background-color: #ffa500;
+    position:relative;
+    left: 48%;
+}
+#some-info
+{
+    text-align: center;
+    margin-top: 38px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(188, 184, 184);
+}
+#info-3
+{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#DIV-1
+{
+    height: 450px;
+    width: 450px;
+    background-color: rgb(244, 236, 236);
+   
+      
+}
+.Date-1
+{
+   
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(167, 157, 157);
+    margin-top: 15%;
+}
+
+h3
+{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans", sans-serif;
+    color: #2d2d2d;
+    margin-top: 8%;
+    margin-left: 7%;
+   
+}
+.Adobe-1
+{
+    margin-top: 4px;
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(167, 157, 157);
+}
+.about-1
+{
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(167, 157, 157);
+    margin-top: 2%;
+}
+
+#DIV-2
+{
+height: 450px;
+width: 450px;
+background-color: rgb(244, 236, 236);
+   
+
+}
+#DIV-3
+{
+height: 450px;
+width: 450px;
+background-color: rgb(244, 236, 236);
+}  
+/* ************ */
+#main-yellow
+{
+    height: 500px;
+    width: 100%;
+    background-color: #f3cc3f;
+    position: relative;
+    bottom: 110%;
+    justify-items: center;
+    align-items: center;
+}
+.project
+{
+    color: white;
+    padding-top: 10%;
+   
+}
+#white-line
+{
+    width: 120px;
+    height: 4px; 
+    background-color: #ffffff; 
+    margin: 28px auto; 
+}
+.hire
+{
+    padding-top: 15px;
+}
+button
+{
+    height: 46px;
+    width: 190px;
+    color: #d1ab22;
+    border: none;
+    font-size: large ;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+/* ***************** */
+#last-div{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+    position: relative;
+    bottom: 101%;
+    justify-items: center;
+}
+.last-para 
+{
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(167, 157, 157);
+    margin-top: 29px;
+}
+
+.social-icons i
+{
+    font-size:28x;
+    padding: 12px;
+    background-color: #d3cdcd;
+    color: grey;
+    border-radius: 50%;
+  
+}
+footer
+{
+position: relative;
+bottom: 120%;
+padding-left: 42%;
+
+}
+#copyright
+{
+    margin-top: 180px;
+    display: flex;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(167, 157, 157);
+   
+}
+.last-p
+{
+    color: #d1ab22;
+
+}
+#fake-div
+{
+    padding-top: 30px;
+}
+.text2:hover{
+   color: #d1ab22;
+   text-decoration: underline  2px #d1ab22;
+   text-underline-position: below;
+   text-underline-offset: 4px;
+}
